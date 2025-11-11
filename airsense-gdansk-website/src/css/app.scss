@@ -1,0 +1,147 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: customfont;
+  src: url(../fonts/Outfit-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter_18pt-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter_18pt-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter_18pt-Italic.ttf');
+  font-weight: 400;
+}
+
+.my-font {
+  font-family: 'customfont';
+}
+
+.Outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.SpaceGrotesk-Light {
+  font-family: 'SpaceGrotesk';
+  font-weight: 300;
+}
+
+.SpaceGrotesk-Regular {
+  font-family: 'SpaceGrotesk';
+  font-weight: 400;
+}
+
+.SpaceGrotesk-Medium {
+  font-family: 'SpaceGrotesk';
+  font-weight: 500;
+}
+
+.SpaceGrotesk-SemiBold {
+  font-family: 'SpaceGrotesk';
+  font-weight: 600;
+}
+
+.SpaceGrotesk-Bold {
+  font-family: 'SpaceGrotesk';
+  font-weight: 700;
+}
+
+.Inter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.Inter-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+.Inter-italic {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'customfont';
+  background-color: #e1e1e1;
+}
+
+.alert-dialog {
+  background-color: #3a3d40;
+  color: $info;
+}
+
+.notify-negative {
+  min-width: 300px;
+  border-bottom: 3px solid #f80715;
+}
+
+.notify-positive {
+  min-width: 300px;
+  border-bottom: 3px solid #88e35b;
+}
+
+.notify-warning {
+  min-width: 300px;
+  border-bottom: 3px solid #fff200;
+}
+
+.notify-info {
+  min-width: 300px;
+  border-bottom: 3px solid #016ef4;
+}
