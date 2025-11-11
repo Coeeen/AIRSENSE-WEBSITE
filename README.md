@@ -23,15 +23,6 @@ AirSense Gdansk Web App is a fully responsive web application for monitoring air
 - **Charts & Data Visualization:** Custom charts for air pollution trends  
 - **Responsive UI:** Fully responsive design with Quasar  
 
-## Usage
-
-1. Clone the repository:  
-```bash
-git clone <repo-url>
-cd <project-folder>
-npm install
-npm start
-```
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap;">
