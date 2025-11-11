@@ -27,7 +27,7 @@ AirSense Gdansk Web App is a fully responsive web application for monitoring air
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/YourUsername/AIRSENSE-WEBSITE.git
+git clone https://github.com/Coeeen/AIRSENSE-WEBSITE.git
 ```
 ## Screenshots
 
